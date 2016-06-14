@@ -282,7 +282,7 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        Dialog.setWindowTitle(_translate("Dialog", "박스오피스 영화 상세정보 조회 서비스"))
         self.lineEdit_date.setPlaceholderText(_translate("Dialog", "날짜 입력(yyyymmdd)"))
         self.pushButton_Search.setText(_translate("Dialog", "Search"))
         self.pushButton_Exit.setText(_translate("Dialog", "Exit"))
